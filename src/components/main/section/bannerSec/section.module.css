@@ -1,0 +1,54 @@
+.section{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.section > div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.imageContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image{
+  width: clamp(240px, 100%, 500px);
+}
+
+@media (min-width: 800px)
+{
+  .section > div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+  }
+  .profile{
+    width: 330px;
+  }
+  .image{
+    width: clamp(300px, 45vw, 500px);
+  }
+  .imageContainer{
+    flex-direction: row-reverse;
+  }
+  
+}
