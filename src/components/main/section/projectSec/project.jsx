@@ -1,5 +1,5 @@
 import { projects } from "../../../../data/projects";
-import styles from "../projectSec/section.module.css";
+import styles from "./section.module.css";
 import GitIcon from '../../../../assets/git-icon.png';
 
 export const Projects = () => {

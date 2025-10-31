@@ -1,4 +1,4 @@
-import styles from '../TechSec/section.module.css'
+import styles from './section.module.css'
 import { technologies } from "../../../../data/technologies";
 
 export const TechSection = () =>{

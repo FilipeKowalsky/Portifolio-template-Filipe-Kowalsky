@@ -1,7 +1,7 @@
-import { BannerSection } from './section/bannerSec/bannerSection';
-import { AboutMeSection } from './section/aboutSec/aboutMeSection';
-import { Projects } from "./section/projectSec/project";
-import { TechSection } from "./section/techSec/techSection";
+import { BannerSection } from './section/BannerSec/BannerSection';
+import { AboutMeSection } from './section/AboutSec/AboutMeSection';
+import { Projects } from "./section/ProjectSec/Project";
+import { TechSection } from "./section/TechSec/TechSection";
 
 export const Main = () => {
   return(
