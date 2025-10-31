@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "Project 1",
-    description: "Props Card Activity",
+    description: "KenzieFlix",
     link: "https://lnkd.in/dt7Cfjh2", // live link
     status: "live",
   },

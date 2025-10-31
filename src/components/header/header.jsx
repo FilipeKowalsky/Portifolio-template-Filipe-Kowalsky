@@ -8,13 +8,13 @@ export const Header = () => {
 
       <ul>
         <li>
-          <p className="label" onClick={() => scrollToSection("about")}>Sobre</p>
+          <p className="label" onClick={() => scrollToSection("about")}>About</p>
         </li>
         <li>
           <p className="label" onClick={() => scrollToSection("stack")}>Stack</p>
         </li>
         <li>
-          <p className="label" onClick={() => scrollToSection("projects")}>Projetos</p>
+          <p className="label" onClick={() => scrollToSection("projects")}>Projects</p>
         </li>
       </ul>
 
